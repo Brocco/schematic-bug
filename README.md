@@ -1,6 +1,7 @@
 # Steps to reproduce
 
 - run `npm install`
+- run `npm install -g @angular-devkit/schematics-cli`
 - run `npm run build`
 - run `cd real`
 - run with dry-run `schematics ../src/collection.json:rename --dry-run`
